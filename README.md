@@ -31,7 +31,7 @@ Based on [OpenCore 0.7.4](https://github.com/acidanthera/OpenCorePkg)
 - Wi-Fi & Bluetooth
 - Internal webcam
 - Trackpad with fully working gestures
-- Screen Brightness and Fn Hotheys (via YogaSMC)
+- Screen Brightness and Fn Hotkeys (via YogaSMC)
 - App store/iMessage/Facetime/icloud
 
 # What's not working
@@ -46,7 +46,7 @@ Before starting, make sure to update the BIOS [here](https://pcsupport.lenovo.co
 - "Exit" <b>OS Optimized Defaults</b> set to <b>Disabled</b>.
 
 # Additional Settings
-- The SMBios data in the config.plist file is invalid and it won't boot if it's left unchanged. This must be set by yourself using your own SMBios or else you may encounter issues with App Store or iMessage. You can read the Dortania's OpenCore guide for instructions about how to setup your own SMBios [here](https://dortania.github.io/docs/release/Configuration.html#x1-610006)
+- The SMBios data in the config.plist file is invalid and it won't boot if it's left unchanged. This must be set by yourself using your own SMBios or else you may encounter issues with App Store or iMessage. You can read the Dortania's OpenCore guide for instructions about how to setup your own SMBios [here](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html#platforminfo)
 
 # Notes
 - The EFi folders provided are tested to work with both Big Sur and Monterey. The OpenCore version and Kexts are up to date and beta updates for Monterey should work without the need of any additional SMBios change.
